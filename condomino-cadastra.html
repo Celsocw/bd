@@ -41,17 +41,36 @@
 <div class="row">
   <form class="col s12">
     <div class="row">
-      <div class="input-field col s6">
+      <div class="input-field col s5">
         <input placeholder="Nome do Condômino" id="nome" type="text" class="validate">
         <label for="nome">Nome</label>
       </div>
 <!--cpf-->
-            <div class="input-field col s6">
+            <div class="input-field col s5">
             <input placeholder="CPF do Condômino" id="cpf" type="number" class="validate">
             <label for="CPF">CPF</label>
           </div>
-         </div>
-<!--Rua-->
+         
+<!--checkbox sindico-->
+<div class="input-field col s1">
+  <form action="#">
+    <label>
+      <input type="checkbox">
+      <span>Sindico</span>
+    </label>
+    </div>
+
+<!--checkbox subsindico-->
+<div class="input-field col s1">
+  <form action="#"><label>
+    <input type="checkbox">
+    <span>Sub - Sindico</span>
+  </label>
+</form>
+</div>
+</div>
+
+ <!--Rua-->
 <div class="row">
   <form class="col s12">
     <div class="row">
@@ -117,6 +136,10 @@
   </form>
 </div>
 <!--Fim do formulario-->
+<div>
+  <a class="waves-effect waves-light btn">Cadastra</a>
+  <a href="administrativo.html" class="waves-effect waves-light btn">Cancela</a>
+  </div>
 
     <!--JavaScript Vlibras-->
     <div vw class="enabled">
