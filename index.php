@@ -24,7 +24,7 @@
   <nav>
     <div class="nav-wrapper">
     <ul id="nav-mobile" class="right show-on-med-and-down ">
-       <li><a href="index.html">Home</a></li>
+       <li><a href="index.php">Home</a></li>
        <li><a href="administrativo.html">Administrativo</a></li>
        <li><a href="contato.html">Contato</a></li>
     </ul>
